@@ -9,6 +9,10 @@ a {
     color: #ccc;
 }
 
+.paddingtop{
+  padding-top: 150px;
+}
+
 #show_on_mobile {
 display: none;
 }
@@ -123,6 +127,14 @@ width: 1068px;
     background: #143f85;
 }
 
+.btn-third {
+  background: #1aaf8a;
+}
+
+.btn-third:hover {
+  background: #1d9782;
+}
+
 /*text colors*/
 .bg-light {
     background: #fff;
@@ -153,6 +165,7 @@ width: 1068px;
         position: relative;
         overflow-y: hidden;
   }
+
 
   #showcase .container{
       margin-top: 25vh;
@@ -212,6 +225,11 @@ width: 1068px;
 
   .lead {
       font-size: 1.3rem;
+      
+  }
+
+  #terms{
+    text-align: justify;
   }
 
   .mb {
